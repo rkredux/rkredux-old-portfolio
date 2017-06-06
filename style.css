@@ -10,13 +10,13 @@ html {
 body{
 	/*background: black; */
 	display: flex;
-	background: #f7f5f6; 
+	background: #E3D5D1; 
 }
 
 
 /*All under wrapper*/
 div.wrapper{
-	/*border: 2px solid black;*/
+	/*border: 2px dotted black;*/
 	height: 120vh; 
 	width: 80%;
 	max-width: 700px; 
@@ -26,10 +26,12 @@ div.wrapper{
 }
 
 div.menu{
-	/*border: 2px solid goldenrod;*/
-	display: flex;
-	justify-content: flex-end; 
+	/*border: 2px dotted goldenrod;*/
+	/*display: flex;*/
+	/*justify-content: center; */
+
 	/*padding-bottom: 10px; */
+	padding: 50px;
 }
 
 button{
@@ -43,6 +45,14 @@ button{
   outline: 0;
   font-size: 2em;  /*position: absolute;*/
 }
+
+/*button.close{
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
+}*/
 
 /*i{
 	font-size: 2em;
@@ -91,7 +101,7 @@ header{
    margin-top: 0px;
    padding: 10px;
    font-size: 1.5rem; 
-   color: #694489;
+   color: #F27059;
    /*font-weight: bold;*/ 
    font-family: 'Roboto', sans-serif;
    /*margin-bottom: 100px; */
@@ -158,9 +168,12 @@ i{
 
 aside{
 	/*border: 2px solid black;*/
-	width: 200px; 
+	width: 300px; 
 	/*margin-left: 20px;*/
 	border-left: 2px solid #ececec; 
+	/*transform: translateX(600px);*/
+	/*opacity: 1; 
+	transition: all 2s ease;*/
 }
 
 nav.sidemenu{
