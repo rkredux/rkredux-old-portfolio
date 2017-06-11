@@ -191,9 +191,9 @@ ul.sidemenu_primary > li{
 
 }
 
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 400px) {
     html {
-       font-size: 3.8vw;
+       font-size: 3.5vw;
     }
 }
 
