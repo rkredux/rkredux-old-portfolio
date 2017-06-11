@@ -213,6 +213,11 @@ ul.sidemenu_primary > li{
     	        order: 2;
     	text-align: center; 
     	width: 100%;
+    	background: #fc4a1a; 
+    }
+
+    ul.sidemenu_primary a{
+    	color: white;
     }
 
     header{
